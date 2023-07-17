@@ -55,3 +55,9 @@ Cypress.Commands.add('login', (username, password) => {
     cy.get(addemployee.saveBtn()).click()
 
 })
+
+
+Cypress.Commands.add('rports', () => { 
+    
+   //bla bla
+})

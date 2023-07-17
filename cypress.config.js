@@ -24,7 +24,8 @@ module.exports = defineConfig({
         
       "username" : "Admin",
       "password": "admin123",
-      "url":"xyz.com"
+      "url":"xyz.com",
+      "neworigin": "abc.com"
 
     },
     setupNodeEvents(on, config) {
