@@ -6,7 +6,7 @@ import logindata from "../../fixtures/logincreds.json"
 
 import employeedata from '../../fixtures/addemployee.json'
 
-describe('Verify Add Employee functionality', () => {
+describe('Verify Add Employee functionality ', () => {
 
   beforeEach(function () {
     cy.visit('/')
